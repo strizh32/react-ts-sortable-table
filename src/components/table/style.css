@@ -1,0 +1,50 @@
+.per-page-button,
+.pagination-button {
+  margin: 8px;
+}
+
+.table th {
+  cursor: pointer;
+}
+
+.table th:hover {
+  text-decoration: underline;
+}
+
+.flex-columns {
+  display: flex;
+}
+
+.flex-column {
+  margin: 0 1px;
+  position: relative;
+  z-index: 2;
+  transition: all 300ms;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column--drag-over {
+  transform: translateY(5px);
+}
+
+.flex-column--sorted .flex-column-item {
+  filter: brightness(0.85);
+}
+
+.flex-column-item {
+  background: #eee;
+  margin: 1px 0;
+  padding: 8px;
+  transition: all 300ms;
+  flex: 1;
+  font-size: 14px;
+}
+
+.flex-column-item--title {
+  flex: 0 0 50px;
+  font-weight: bold;
+  background: #ddd;
+  cursor: grab;
+}
