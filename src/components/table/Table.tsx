@@ -188,7 +188,7 @@ const Table: React.FC = () => {
         const className = [
           'flex-column',
           idx === dragOverColumnIndex ? 'flex-column--drag-over' : '',
-          title === sortedColumnTitle ? 'flex-column--sorted' : ''
+          title === sortedColumnTitle ? 'flex-column--sorted' : '',
         ]
           .join(' ')
           .trim();

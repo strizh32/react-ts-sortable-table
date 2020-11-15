@@ -8,7 +8,8 @@ export const getCurrentPage = (state: SystemState) => state.table.currentPage;
 
 export const getAllTableRows = (state: SystemState) => state.table.tableRows;
 
-export const getSortedColumnTitle = (state: SystemState) => state.table.sortedColumnTitle;
+export const getSortedColumnTitle = (state: SystemState) =>
+  state.table.sortedColumnTitle;
 
 export const getPagesArray = (
   state: SystemState
